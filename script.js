@@ -1,12 +1,4 @@
-function sin(){
-    document.calculator.result.value=Math.sin(document.calculator.result.value);
-}
-function cos(){
-    document.calculator.result.value=Math.cos(document.calculator.result.value);
-}
-function tan(){
-    document.calculator.result.value=Math.tan(document.calculator.result.value);
-}
+
 function BACKSPC(){
     var a = document.calculator.result.value;
     document.calculator.result.value = a.substr(0, a.length-1);

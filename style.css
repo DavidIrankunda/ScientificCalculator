@@ -40,6 +40,15 @@
         border-bottom: 2px solid #bd981e;
         color: black;
     }
+    h2{
+        color: #139011;
+        background-color: #000;
+        margin: 0px;
+        text-align: center;
+        text-decoration:underline ;
+        text-transform: uppercase;
+    }
+
     button{
         padding: 10px 20px;
         width: 100px;

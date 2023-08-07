@@ -3,28 +3,28 @@
 <head>
     <link rel="stylesheet" href="style.css"> 
     <body>
+
+        <h2>David's calculator</h2>
+
         <form name="calculator">
             <table align="center">
+
                 <tr>
                     <td colspan="4"><input type="text" name="result" placeholder="0" style="text-align: right"></td>
                 </tr>
                 <tr>
-                    <td><button type="button" value="sin" onclick="sin()">sin</button></td>
-                    <td><button type="button" value="cos" onclick="cos()">cos</button></td>
-                    <td><button type="button" value="tan" onclick="tan()">tan</button></td>
-                    <td colspan="2"><button type="button" onclick="remv()" class="clear">AC</button></td>
                 </tr>
                 <tr>
                     <td><button type="button" value="x^2" onclick="square()">x<sup>2</sup></button></td>
                     <td><button type="button" value="x^3" onclick="quibbed()">x<sup>3</sup></button></td>
                     <td><button type="button" value="sqrt2" onclick="sqrt2()">&radic;</button></td>
-                    <td><button type="button" value="sqrt3" onclick="sqrt3()">&#8731;</button></td>
+                    <td colspan="2"><button type="button" onclick="remv()" class="clear">AC</button></td>
                 </tr>
                 <tr>
                     <td><button type="button" value="1" onclick="number(value)">1</button></td>
                     <td><button type="button" value="2" onclick="number(value)">2</button></td>
                     <td><button type="button" value="3" onclick="number(value)">3</button></td>
-                    <td><button id="buttonBack" value="BACKSPC" onclick="BACKSPC()">BACK</button></td>
+                    <td><button id="buttonBack" value="BACKSPC" onclick="BACKSPC()">Back</button></td>
                 </tr>
                 <tr>
                     <td><button type="button" value="4" onclick="number(value)">4</button></td>
